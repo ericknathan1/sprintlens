@@ -56,3 +56,4 @@ try {
 
 Write-Host "`n[+] Setup check complete!" -ForegroundColor Cyan
 Write-Host "To start the local PostgreSQL database, run: docker-compose up -d postgres" -ForegroundColor White
+
