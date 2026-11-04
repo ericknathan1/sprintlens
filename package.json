@@ -1,0 +1,28 @@
+{
+  "name": "sprintlens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SprintLens - People & Agile Analytics SaaS platform based on Jira CSV exports",
+  "scripts": {
+    "docker:up": "docker-compose up -d postgres",
+    "docker:up:all": "docker-compose --profile tools up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f postgres",
+    "dev:api": "pnpm --filter @sprintlens/api-core run start:dev",
+    "dev:web": "pnpm --filter @sprintlens/web run dev",
+    "dev:data": "python apps/data-engine/main.py",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test"
+  },
+  "keywords": [
+    "agile",
+    "analytics",
+    "jira",
+    "monte-carlo",
+    "lead-time",
+    "throughput",
+    "sprint"
+  ],
+  "author": "SprintLens Team",
+  "license": "UNLICENSED"
+}
