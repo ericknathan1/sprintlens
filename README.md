@@ -112,7 +112,8 @@ docker-compose ps
 ## 7. Roadmap de Implementação
 
 - [x] **Etapa 1: Setup & Infraestrutura Local** (Monorepo, .gitignore, Docker Compose, .env.example, scripts)
-- [ ] **Etapa 2: Backend Core & Auth** (NestJS, Prisma ORM, JWT, RBAC, Seed Admin, CRUD Admin)
+- [x] **Etapa 2: Backend Core & Auth** (NestJS, Prisma ORM, JWT, RBAC, Seed Admin, CRUD Admin, Swagger em `/api/docs`)
 - [ ] **Etapa 3: Data Engine Python** (FastAPI, Pandas ETL Medallion, dataset demo, Monte Carlo 10k)
 - [ ] **Etapa 4: Frontend Base & Auth** (Next.js 14, Tailwind, Design System, telas Auth, Admin)
 - [ ] **Etapa 5: Fluxo de Upload, Mapeador De-Para, Dashboard e Exportação PDF**
+

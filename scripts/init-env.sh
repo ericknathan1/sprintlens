@@ -23,3 +23,4 @@ command -v docker >/dev/null 2>&1 && echo "  - Docker: $(docker --version)" || e
 echo ""
 echo "[+] Setup check complete!"
 echo "To start PostgreSQL: docker-compose up -d postgres"
+
